@@ -21,6 +21,8 @@ setup(
  version='1.0',
  description='Python Distribution Utilities',
  packages=find_packages(where='.'),
+ py_modules=['darknet.py'],
+ package_data= {'': ['darknet']},
  # py_modules=['darknet.py'],
  # data_files=['darknet'],
  has_ext_modules=lambda: True,
